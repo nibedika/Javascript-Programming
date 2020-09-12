@@ -1,0 +1,28 @@
+.box{
+    width: 650px;
+    height: 150px;
+    background: lightgray;
+    margin: 250px;
+
+}
+
+.display{
+    width: 250px;
+    height: 100px;
+    background: #00008b;
+    font-size: 30px;
+    margin: 25px;
+    border: 10px solid lightslategray;
+    color: #fff;
+}
+
+#time{
+    width: 300px;
+    min-height: 100px;
+    background: #00008b;
+    font-size: 20px;
+    margin: 15px;
+    border: 10px solid lightslategray;
+    float: right;
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    background: lightgoldenrodyellow;
+    border: 10px solid #a2441e;
+    border-radius: 5px;
+    margin: 40px 400px;
+    overflow: hidden;
+}
+
+.upper{
+    height: 70px;
+    width: 500px;
+    border: 10px solid #a2441e;
+    border-top: none;
+    border-left: none;
+
+}
+
+.lower{
+    height: 510px;
+    width: 480px;
+    border: 3px solid grey;
+    border-left: none;
+    border-top: none;
+    border-radius: 0 0 50px 0;
+    background: lightgrey;
+    
+
+}
+
+.input{
+    height: 55px;
+    width: 400px;
+    background: lightgoldenrodyellow;
+    font-size: 20px;
+    border: none; 
+}
+
+.btn{
+    height: 60px;
+    width: 77px;
+    font-size: 26px;
+    color: #a2441e;
+}
+
+.list ul:li{
+    list-style-type: number;
+    font-size: 24px;
+}

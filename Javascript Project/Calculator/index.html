@@ -1,0 +1,72 @@
+<! DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>S-Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Favicon icon attachment===================================== -->
+        <link rel="shortcut icon" type="Image/icon" href="Image/icon3.png"/>
+    </head>
+
+    <body>
+        <div id="container">
+        <form>    
+            <!-- Display Section start-->
+            <input type="text" id="display1" placeholder="Result">
+            <input type="text" id="display2" placeholder="Input">
+            <!-- Display Section end-->
+            
+            <!-- Sin-Cos operator section start-->
+            <div id="operator">
+                <input type="button" value="sin" id="oper" onclick="degree('sin ')">
+                <input type="button" value="cos" id="oper" onclick="degree('cos ')">
+                <input type="button" value="tan" id="oper" onclick="degree('tan ')">
+                <input type="button" value="cosec" id="oper" onclick="degree('cosec ')">
+                <input type="button" value="sec" id="oper" onclick="degree('sec ')">
+                <input type="button" value="cot" id="oper" onclick="degree('cot ')">
+            </div>
+            <!-- Sin-Cos operator section end-->
+
+            <!--Special operation section start-->
+            <div id="operator">
+                <input type="button" value="x^3" id="oper" onclick="power(3)">
+                <input type="button" value="x^2" id="oper" onclick="power(2)">
+                <input type="button" value="sqt-3" id="oper" onclick="sqrt(3)">
+                <input type="button" value="sqt-2" id="oper" onclick="sqrt(2)">
+                <input type="button" value="C" id="oper" onclick="addtoscreen('c')">
+                <input type="button" value="del" id="oper" onclick="backspace()">
+             </div>
+            <!--Special operation section end-->
+
+            <!-- Arithmetic operator section start-->
+            <div id="operator">
+                <input type="button" value="+" id="oper" onclick="addtoscreen('+')">
+                <input type="button" value="-" id="oper" onclick="addtoscreen('-')">
+                <input type="button" value="*" id="oper" onclick="addtoscreen('*')">
+                <input type="button" value="/" id="oper" onclick="addtoscreen('/')">
+                <input type="button" value="%" id="oper" onclick="addtoscreen('%')">
+                <input type="button" value="!" id="oper" onclick="addtoscreen('!')">
+            </div>
+            <!-- Arithmetic operator section end-->
+
+            <!-- Number input button========================================= -->
+            <div id="number">
+                <input type="button" value="1" id="num" onclick="addtoscreen('1')">
+                <input type="button" value="2" id="num" onclick="addtoscreen('2')">
+                <input type="button" value="3" id="num" onclick="addtoscreen('3')">
+                <input type="button" value="4" id="num" onclick="addtoscreen('4')">
+                <input type="button" value="5" id="num" onclick="addtoscreen('5')">
+                <input type="button" value="6" id="num" onclick="addtoscreen('6')">
+                <input type="button" value="7" id="num" onclick="addtoscreen('7')">
+                <input type="button" value="8" id="num" onclick="addtoscreen('8')">
+                <input type="button" value="9" id="num" onclick="addtoscreen('9')">
+                <input type="button" value="0" id="num" onclick="addtoscreen('0')">
+                <input type="button" value="." id="num" onclick="addtoscreen('.')">
+
+                <input type="button" value="=" id="result" onclick="answer()">
+            </div>
+        </form>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
